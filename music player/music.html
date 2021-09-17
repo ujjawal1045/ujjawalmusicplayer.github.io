@@ -1,0 +1,1037 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Ujjawal Music Player</title>
+      <!-- animation sheet from animate website for animation -->
+      <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
+      <!-- main css sheet -->
+      <link rel="stylesheet" href="music.css">
+      <!-- responsivness css sheet -->
+      <link rel="stylesheet" href="musicresponsive.css">
+      <!-- bootstrapcss -->
+      <!-- linking fontawesome website for use of different logo and symbols -->
+      <script src="https://kit.fontawesome.com/e7f0e009a9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navigation-bar">
+        <div class="web-title">
+          <div class="web-logo">
+            <i class="far fa-play-circle"></i>
+
+          </div>
+          <div class="web-name">
+            <h3>
+              Ujjawal
+            </h3>
+              <h5>
+                studio
+              </h5>
+
+          </div>
+        </div>
+
+        <p class="pointer" id="home">HOME</p>
+
+          <div class="favourite pointer animated zoomIn 1s">
+            <h4>
+              FAVOURITES
+            </h4>
+          </div>
+
+        <div class="search-bar">
+          <div class="search" >
+            <i class="fas fa-search pointer"></i>
+          </div>
+          <input type="text" name="search" placeholder="search for music you love">
+          <div class="mic">
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
+
+        <div class="notification">
+          <div class="animated headShake infinite">
+            <i class="fas fa-bell pointer"></i>
+          </div>
+        </div>
+        <p class="pointer" id="download">DOWNLOAD APP</p>
+
+        <div class="user-profile pointer">
+          <img src="profile.jpg" >
+        </div>
+
+    </nav>
+    <main>
+
+          <aside class="aside section1">
+
+            <!-- for animated type -->
+            <div class="craousel">
+              <div class="craousel1 ">
+                  <img src="cra1.jpg" class="pointer" >
+                  <img src="cra3.jpg" class="pointer" >
+                  <img src="cra2.jpg" class="pointer">
+              </div>
+            </div>
+
+            <!-- latest release division -->
+            <div class="latest-release">
+              <h1 id="latest-heading">
+                Latest Release
+              </h1>
+              <!-- songs of latest release section -->
+              <div class="latest-content">
+                <!-- first song of latest release -->
+                <div class="content-card">
+                  <div>
+                    <!-- image of first song -->
+                      <img src="card1.jfif">
+                      <!-- play button to play song -->
+                    <div class="play-button">
+                      <i class="fas fa-play"  ></i>
+                    </div>
+                  </div>
+                  <!-- song details including name release date -->
+                  <div class="song-detail">
+                    <h3 class="pointer">Running Out of Roses</h3>
+                    <p>sep, 2021</p>
+                  </div>
+                       <!-- menu option to play like add to favourite etc on clicking on three dots -->
+                  <div class="options">
+                    <label for="latest-release-checkbox0"><i class="fas fa-ellipsis-h "></i></label>
+
+                    <input type="checkbox" id="latest-release-checkbox0">
+                    <div class="latest-release-menu">
+                      <div class="menu-list">
+                        <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                      </div>
+                      <hr style="width:100%;">
+                      <div class="menu-list">
+                        <p><i class="fas fa-download"></i> Download</p>
+                      </div>
+                      <hr style="width:100%;">
+                      <div class="menu-list">
+                        <p> <i class="fas fa-info"></i> View Song Detail</p>
+                      </div>
+                      <hr style="width:100%;">
+                      <div class="menu-list">
+                        <p><i class="fas fa-list"></i> Add to Playlist</p>
+                      </div>
+                      <hr style="width:100%;">
+                      <div class="menu-list">
+                        <p><i class="fas fa-heart"></i> Like the Song</p>
+                      </div>
+
+                    </div>
+                     <!-- song duration -->
+                    <p>5:45</p>
+
+                  </div>
+
+                </div>
+                <!-- second song -->
+                <div class="content-card">
+                 <div>
+                   <img src="card2.webp">
+                   <div class="play-button">
+                     <i class="fas fa-play"></i>
+                   </div>
+                 </div>
+
+                 <div class="song-detail">
+                   <h3 class="pointer">Arcadia</h3>
+                   <p>jan, 2021</p>
+                 </div>
+
+                 <div class="options">
+                   <label for="latest-release-checkbox1"><i class="fas fa-ellipsis-h"></i></label>
+                   <input type="checkbox" id="latest-release-checkbox1">
+                   <div class="latest-release-menu">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-download"></i> Download</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-info"></i> View Song Detail</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-list"></i> Add to Playlist</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-heart"></i> Like the Song</p>
+                     </div>
+
+                   </div>
+
+                   <p>3:14</p>
+
+                 </div>
+
+               </div>
+
+
+               <!-- third song -->
+               <div class="content-card">
+                 <div>
+                   <img src="caed3.webp">
+                   <div class="play-button">
+                     <i class="fas fa-play"  ></i>
+                   </div>
+                 </div>
+
+                 <div class="song-detail">
+                   <h3 class="pointer">The Hum</h3>
+                   <p>oct, 2021</p>
+                 </div>
+
+                 <div class="options">
+                   <label for="latest-release-checkbox2"><i class="fas fa-ellipsis-h"></i></label>
+                   <input type="checkbox" id="latest-release-checkbox2">
+                   <div class="latest-release-menu">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-download"></i> Download</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-info"></i> View Song Detail</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-list"></i> Add to Playlist</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-heart"></i> Like the Song</p>
+                     </div>
+
+                   </div>
+
+                   <p>3:31</p>
+
+                 </div>
+
+               </div>
+
+               <!-- fourth song -->
+
+               <div class="content-card">
+                 <div>
+                   <img src="card4.webp">
+                   <div class="play-button">
+                     <i class="fas fa-play"></i>
+                   </div>
+                 </div>
+
+                 <div class="song-detail">
+                   <h3 class="pointer">Wombass</h3>
+                   <p>sep, 2021</p>
+                 </div>
+
+                 <div class="options">
+
+                       <label for="latest-release-checkbox3"><i class="fas fa-ellipsis-h"></i></label>
+
+
+                   <input type="checkbox" id="latest-release-checkbox3">
+                   <div class="latest-release-menu">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-download"></i> Download</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-info"></i> View Song Detail</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-list"></i> Add to Playlist</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-heart"></i> Like the Song</p>
+                     </div>
+
+                   </div>
+
+                   <p>4:00</p>
+
+                 </div>
+
+               </div>
+
+               <!-- fifth song -->
+               <div class="content-card">
+                 <div>
+                   <img src="card5.webp">
+                   <div class="play-button">
+                     <i class="fas fa-play"></i>
+                   </div>
+                 </div>
+
+                 <div class="song-detail">
+                   <h3 class="pointer">Ladi Dadi</h3>
+                   <p>sep, 2021</p>
+                 </div>
+
+                 <div class="options">
+                   <label for="latest-release-checkbox4"><i class="fas fa-ellipsis-h"></i></label>
+                   <input type="checkbox" id="latest-release-checkbox4">
+                   <div class="latest-release-menu">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-download"></i> Download</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-info"></i> View Song Detail</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-list"></i> Add to Playlist</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-heart"></i> Like the Song</p>
+                     </div>
+
+                   </div>
+
+                   <p>5:15</p>
+
+                 </div>
+
+               </div>
+
+
+               <!-- sixth song -->
+               <div class="content-card">
+                 <div>
+                   <img src="card6.webp">
+                   <div class="play-button">
+                     <i class="fas fa-play"  ></i>
+                   </div>
+                 </div>
+
+                 <div class="song-detail">
+                   <h3 class="pointer">Miami 2 Ibiza</h3>
+                   <p>Aug, 2021</p>
+                 </div>
+
+                 <div class="options">
+                   <label for="latest-release-checkbox5"><i class="fas fa-ellipsis-h"></i></label>
+                   <input type="checkbox" id="latest-release-checkbox5">
+                   <div class="latest-release-menu">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-play-circle"></i>Play Next</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-download"></i> Download</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p> <i class="fas fa-info"></i> View Song Detail</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-list"></i> Add to Playlist</p>
+                     </div>
+                     <hr style="width:100%;">
+                     <div class="menu-list">
+                       <p><i class="fas fa-heart"></i> Like the Song</p>
+                     </div>
+                   </div>
+                   <p>
+                     3:26
+                   </p>
+                 </div>
+               </div>
+              </div>
+            </div>
+
+            <!-- popular artisr section -->
+            <div class="popular-artists">
+              <!-- heading -->
+              <h1 id="popular-heading">
+                Popular Artists
+              </h1>
+              <!-- names of popular artist section -->
+               <div class="popular-artists-names">
+                 <div >
+                   <img src="edsheeran.jpg" class="pointer">
+                   <p>
+                     Ed Sheeran
+                   </p>
+                 </div>
+
+                 <!-- second artist -->
+                 <div >
+                   <img src="shreya.jpg" class="pointer">
+                   <p>
+                     Shreya Ghoshal
+                   </p>
+                 </div>
+
+                 <!-- third artisrt -->
+                 <div >
+                   <img src="zayn.jpg" class="pointer">
+                   <p>
+                     Zayn Malik
+                   </p>
+                 </div>
+
+                 <!-- fourth artist -->
+                 <div >
+                   <img src="sunidhi.jpg" class="pointer">
+                   <p>
+                     Sunidhi Chauhan
+                   </p>
+                 </div>
+                 <!-- fifth artist -->
+                 <div >
+                   <img src="charlie.jfif" class="pointer">
+                   <p>
+                     Charlie Puth
+                   </p>
+                 </div>
+
+                 <!-- sixth artist -->
+                 <div >
+                   <img src="coldplay.jpg" class="pointer">
+                   <p>
+                     Chris Martin
+                   </p>
+                 </div>
+                 <!-- seventh artist -->
+                 <div >
+                   <img src="pink.jpg" class="pointer">
+                   <p>
+                     Pink
+                   </p>
+                 </div>
+                 <!-- eighth artist -->
+                 <div >
+                   <img src="arjit.webp" class="pointer">
+                   <p>
+                     Arjit Singh
+                   </p>
+                 </div>
+                 <!-- ninth artist -->
+                 <div >
+                   <img src="ariana1.jfif" class="pointer">
+                   <p>
+                     Ariana Grande
+                   </p>
+                 </div>
+                 <!-- tenth artist -->
+                 <div >
+                   <img src="badshah.jpg" class="pointer">
+                   <p>
+                     Badshah
+                   </p>
+                 </div>
+
+               </div>
+            </div>
+
+            <!-- music type part like workout party etc -->
+            <div class="music-themes">
+              <div class="stations">
+                <div id="rectangle1">
+                  <div id="rectangle2">
+                    <div id="rectangle3">
+                      <i class="fas fa-music animated swing infinite"></i>
+                      <p>
+                        Stations
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="music-theme-type">
+
+                <div class="theme-type-content pointer">
+                  <img src="love.jpg">
+                  <p>Love</p>
+                </div>
+
+                <div class="theme-type-content pointer">
+                  <img src="retro.jfif">
+                  <p>Retro</p>
+                </div>
+
+                <div class="theme-type-content pointer">
+                  <img src="chill.jpg">
+                  <p>Chill</p>
+                </div>
+
+                <div class="theme-type-content pointer">
+                  <img src="workout.webp">
+                  <p>Workout</p>
+                </div>
+
+                <div class="theme-type-content pointer">
+                  <img src="rock.jfif">
+                  <p>Rock</p>
+                </div>
+                <div class="theme-type-content pointer">
+                  <img src="concentration.jpg">
+                  <p>Meditation</p>
+                </div>
+
+                <div class="theme-type-content pointer">
+                  <img src="pop.jpg">
+                  <p>Pop</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- music category party electronic roadtrip section -->
+
+            <div class="music-category">
+
+              <div class="music-category-card pointer">
+                <img src="party1.jpg" alt="">
+                <div class="music-category-name">
+                  <span>Party</span>
+                </div>
+              </div>
+
+                <div class="music-category-card pointer">
+                  <img src="electronic.jpg" alt="">
+                  <div class="music-category-name">
+                    <span>Electronic</span>
+                  </div>
+              </div>
+
+              <div class="music-category-card pointer">
+                <img src="roadtrip.jpg" alt="">
+                <div class="music-category-name">
+                  <span>Road Trip</span>
+                </div>
+            </div>
+
+          </div>
+
+    <!-- latest english song -->
+          <div class="latest-english">
+            <h1 id="heading">
+              Latest english
+            </h1>
+            <div class="latest-english-content">
+
+              <div class="pointer">
+                <img src="dynamite.jpg" >
+                <p id="s-name">dynamite</p>
+                <p id="s-date">sep 15,2021</p>
+              </div>
+
+              <div class="pointer" >
+                <img src="way.jfif" >
+                <p id="s-name">Way to sexy</p>
+                <p id="s-date">aug 25,2021</p>
+              </div>
+
+              <div class="pointer">
+                <img src="another.jpg" >
+                <p id="s-name">Another</p>
+                <p id="s-date">sep 03,2021</p>
+              </div>
+
+              <div class="pointer">
+                <img src="million.jpg" >
+                <p id="s-name">Million to One</p>
+                <p id="s-date">sep 13,2021</p>
+              </div>
+
+              <div class="pointer">
+                <img src="need.jfif" >
+                <p id="s-name">Need to KNow</p>
+                <p id="s-date">aug 23,2021</p>
+              </div>
+
+              <div class="pointer">
+                <img src="crazy.jpg" >
+                <p id="s-name">Go Crazy</p>
+                <p id="s-date">sep 09,2021</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- latest hindi song -->
+                <div class="latest-hindi">
+                  <h1 id="heading">
+                    Latest Hindi
+                  </h1>
+                  <div class="latest-english-content">
+
+                    <div class="pointer">
+                      <img src="leja.webp" >
+                      <p id="s-name">Leja Re</p>
+                      <p id="s-date">sep 11,2021</p>
+                    </div>
+
+                    <div class="pointer" >
+                      <img src="raatan.webp" >
+                      <p id="s-name">Raataan Lambiyan</p>
+                      <p id="s-date">aug 09,2021</p>
+                    </div>
+
+                    <div class="pointer">
+                      <img src="jashn.webp" >
+                      <p id="s-name">Jashn-E-bahara</p>
+                      <p id="s-date">sep 14,2021</p>
+                    </div>
+
+                    <div class="pointer">
+                      <img src="maathe.webp" >
+                      <p id="s-name">Matthe Te Chamkan</p>
+                      <p id="s-date">aug 28,2021</p>
+                    </div>
+
+                    <div class="pointer">
+                      <img src="ishq.webp" >
+                      <p id="s-name">Ishq Mein</p>
+                      <p id="s-date">sep 27,2021</p>
+                    </div>
+
+                    <div class="pointer">
+                      <img src="mann.webp" >
+                      <p id="s-name">Mann Bharryaa 2.0</p>
+                      <p id="s-date">sep 06,2021</p>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+
+
+                <!-- top hindi song -->
+                      <div class="latest-hindi">
+                        <h1 id="heading">
+                          Top Hindi Playlists
+                        </h1>
+                        <div class="latest-english-content">
+
+                          <div class="pointer">
+                            <img src="fresharrival.webp" >
+                            <p id="s-name">Fresh Arrivals- Hindi</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                          <div class="pointer" >
+                            <img src="popstyle.webp" >
+                            <p id="s-name">Raataan Lambiyan</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                          <div class="pointer">
+                            <img src="lazyswag.webp" >
+                            <p id="s-name">Lazy Swag</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                          <div class="pointer">
+                            <img src="ishqsafarnam.webp" >
+                            <p id="s-name">Ishq Safarnaama</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                          <div class="pointer">
+                            <img src="romance.webp" >
+                            <p id="s-name">Romance N Chill</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                          <div class="pointer">
+                            <img src="desi.webp" >
+                            <p id="s-name">Desi Hip Hop</p>
+                            <p id="s-date">By Ujjawal Studio</p>
+                          </div>
+
+                        </div>
+
+
+                      </div>
+
+          </aside>
+
+
+        <!-- left aside section completed -->
+        <!-- menu option during small screen size for other aside section -->
+        <label for="menu"><i class="fas fa-bars "></i></label>
+        <input type="checkbox" name="" value="" id="menu">
+
+
+        <!-- aside2 section2 start -->
+        <aside class="aside1 section2">
+            <div class="heading11">
+              <h1>
+                Playlist
+              </h1>
+              <h4>
+                <a href="#queue-list-box">Queue <i class="fas fa-caret-down"></i></a>
+              </h4>
+            </div>
+
+            <!-- queue menu box visible on clicking -->
+            <div class="queue-list" id="queue-list-box">
+              <p><a href style="color:white; font-weight:bolder;"><i class="fas fa-music" style="margin-right:1px;"></i> Playlist</a> </p>
+              <hr style="width:90%;">
+              <p><a href style="color:white; font-weight:bolder;"><i class="fas fa-heart"  style="margin-right:1px;"></i> Liked Songs</a> </p>
+            </div>
+
+            <div class="playlist-song pointer">
+              <div class="playlist-item">
+                <div class="marging-left">
+                <div style="margin-right:5px;">
+                  01
+                </div>
+                <div class="effect">
+                  <img src="rammo.webp" alt="">
+                </div>
+                <!-- two div for song name and sinfger name -->
+                <div>
+                  <div>
+                    Rammo Rammo
+                  </div>
+                  <p>Udit narayan</p>
+                </div>
+              </div>
+
+              <!-- heart symbol for like -->
+                <div class="marging-right">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+
+              <!-- second-song -->
+              <div class="playlist-item">
+                <div class="marging-left">
+                <div style="margin-right:5px;">
+                  02
+                </div>
+                <div class="effect">
+                  <img src="aadat.webp" alt="">
+                </div>
+                <!-- two div for song name and sinfger name -->
+                <div>
+                  <div>
+                    Aadat
+                  </div>
+                  <p>Antara Nandi</p>
+                </div>
+              </div>
+
+              <!-- heart symbol for like -->
+                <div class="marging-right">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+
+              <!-- third song -->
+              <div class="playlist-item">
+                <div class="marging-left">
+                <div style="margin-right:5px;">
+                  03
+                </div>
+                <div class="effect">
+                  <img src="Desh.webp" alt="">
+                </div>
+                <!-- two div for song name and sinfger name -->
+                <div>
+                  <div>
+                    Desh Mere
+                  </div>
+                  <p>Arjit Singh</p>
+                </div>
+              </div>
+
+              <!-- heart symbol for like -->
+                <div class="marging-right">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+
+              <!-- fourth song -->
+              <div class="playlist-item">
+                <div class="marging-left">
+                <div style="margin-right:5px;">
+                  04
+                </div>
+                <div class="effect">
+                  <img src="tumse.webp" alt="">
+                </div>
+                <!-- two div for song name and sinfger name -->
+                <div>
+                  <div>
+                    Tumse Pyarr Hai
+                  </div>
+                  <p>Vishal Mishra</p>
+                </div>
+              </div>
+
+              <!-- heart symbol for like -->
+                <div class="marging-right">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+
+              <!-- fifth song -->
+              <div class="playlist-item">
+                <div class="marging-left">
+                <div style="margin-right:5px;">
+                  05
+                </div>
+                <div class="effect">
+                  <img src="ranjha.webp" alt="">
+                </div>
+                <!-- two div for song name and sinfger name -->
+                <div>
+                  <div>
+                    Ranjha
+                  </div>
+                  <p>Jasleen Royal</p>
+                </div>
+              </div>
+
+              <!-- heart symbol for like -->
+                <div class="marging-right">
+                  <i class="fas fa-heart"></i>
+                </div>
+              </div>
+
+             <!-- sixth song -->
+
+             <div class="playlist-item">
+               <div class="marging-left">
+               <div style="margin-right:5px;">
+                 06
+               </div>
+               <div class="effect">
+                 <img src="zaalima.webp" alt="">
+               </div>
+               <!-- two div for song name and sinfger name -->
+               <div>
+                 <div>
+                   Zaalima Coca Cola
+                 </div>
+                 <p>Shreya Ghoshal</p>
+               </div>
+             </div>
+
+             <!-- heart symbol for like -->
+               <div class="marging-right">
+                 <i class="fas fa-heart"></i>
+               </div>
+             </div>
+
+             <!-- seventh song -->
+             <div class="playlist-item">
+               <div class="marging-left">
+               <div style="margin-right:5px;">
+                 07
+               </div>
+               <div class="effect">
+                 <img src="yaari.webp" alt="">
+               </div>
+               <!-- two div for song name and sinfger name -->
+               <div>
+                 <div>
+                  Yaari Ka Comeback
+                 </div>
+                 <p>abhishek Nailwal</p>
+               </div>
+             </div>
+
+             <!-- heart symbol for like -->
+               <div class="marging-right">
+                 <i class="fas fa-heart"></i>
+               </div>
+             </div>
+
+             <!-- eighth song -->
+             <div class="playlist-item">
+               <div class="marging-left">
+               <div style="margin-right:5px;">
+                 08
+               </div>
+               <div class="effect">
+                 <img src="mai.webp" alt="">
+               </div>
+               <!-- two div for song name and sinfger name -->
+               <div>
+                 <div>
+                  Main Tera Boyfriend
+                 </div>
+                 <p>Neha and Arjit</p>
+               </div>
+             </div>
+
+             <!-- heart symbol for like -->
+               <div class="marging-right">
+                 <i class="fas fa-heart"></i>
+               </div>
+             </div>
+
+             <!-- ninth song -->
+             <div class="playlist-item">
+               <div class="marging-left">
+               <div style="margin-right:5px;">
+                 09
+               </div>
+               <div class="effect">
+                 <img src="mukabla.webp" alt="">
+               </div>
+               <!-- two div for song name and sinfger name -->
+               <div>
+                 <div>
+                  Muqabla
+                 </div>
+                 <p>Yash Narvekar</p>
+               </div>
+             </div>
+
+             <!-- heart symbol for like -->
+               <div class="marging-right">
+                 <i class="fas fa-heart"></i>
+               </div>
+             </div>
+
+             <!-- tenth song -->
+             <div class="playlist-item">
+               <div class="marging-left">
+               <div style="margin-right:5px;">
+                 10
+               </div>
+               <div class="effect">
+                 <img src="Khudkushi.webp" alt="">
+               </div>
+               <!-- two div for song name and sinfger name -->
+               <div>
+                 <div>
+                  Khudkushi
+                 </div>
+                 <p>Neeti Mohan</p>
+               </div>
+             </div>
+
+             <!-- heart symbol for like -->
+               <div class="marging-right">
+                 <i class="fas fa-heart"></i>
+               </div>
+             </div>
+
+            </div>
+        </aside>
+    </main>
+
+<!-- footer section start which contain current song playing detail
+and volume next etc -->
+
+
+
+    <footer>
+      <div class="playing-song-desc">
+        <div class="playing-song-img">
+          <img src="khudkushi.webp" class="pointer">
+        </div>
+        <!-- song and author name -->
+        <div class="song-desc pointer">
+          <div >
+            Khudkhushi
+          </div>
+          <div>
+            Neeti Mohan
+          </div>
+        </div>
+
+        <div class="heart-and-block">
+          <span><i class="far fa-heart pointer"></i></span>
+          <span><i class="fas fa-ban pointer"></i></span>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="control">
+          <div >
+            <i class="fas fa-random pointer"></i>
+          </div>
+          <div >
+            <i class="fas fa-step-backward pointer"></i>
+          </div>
+          <div >
+            <i class="fas fa-pause-circle pointer"></i>
+          </div>
+          <div >
+            <i class="fas fa-step-forward pointer"></i>
+          </div>
+          <div >
+            <i class="fas fa-redo pointer"></i>
+          </div>
+        </div>
+
+        <!-- song duration line -->
+        <div class="duration-line">
+          <div class="current-duration">
+            2:02
+          </div>
+          <div class="duration-container ">
+            <input type="range" name="" min="0" max="100" value="0" class="slider pointer" id="range">
+          </div>
+          <div class="current-duration">
+            3:43
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- right-side icon volume minimize maximize -->
+      <div class="extra">
+        <div>
+          <i class="fas fa-list-ul"></i>
+        </div>
+        <div>
+          <i class="fas fa-laptop"></i>
+        </div>
+        <div >
+          <i class="fas fa-volume-up"></i>
+        </div>
+        <div class="duration-container " style="width:30%;">
+          <input type="range" name="" min="0" max="100" value="0" class="slider pointer" id="range">
+        </div>
+        <div >
+          <i class="fas fa-expand-alt"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
